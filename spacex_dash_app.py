@@ -105,7 +105,8 @@ def get_scatter_chart(entered_site, payload_slider) :
         filtered_df[mask],
         x="Payload Mass (kg)", 
         y="class",
-        color="Booster Version Category"
+        color="Booster Version Category",
+        title = 'Correlation between Payload and success for all sites'
         )
         return fig
     else :
@@ -114,7 +115,8 @@ def get_scatter_chart(entered_site, payload_slider) :
         data[mask],
         x="Payload Mass (kg)", 
         y="class",
-        color="Booster Version Category"
+        color="Booster Version Category",
+        title = f'Correlation between Payload and success for {entered_site}'
         )
         return fig     
 
