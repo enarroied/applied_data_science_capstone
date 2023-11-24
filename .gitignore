@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.pyc
+*.pyo
+__pycache__/
+*.pkl
+*.pyc
+*.pyo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+*.ipynb-meta/
+*.nbconvert/
+
+# Environment configuration
+.env
+
+# Project-specific files
+__init__.py
+
+# Ignore logs and data files
+logs/
+*.log
+*.csv
+
+# Ignore generated HTML files
+*.html
+
+# Ignore SQLite database files
+*.sqlite
+
+# Ignore user-specific files
+*.iml
+*.DS_Store
